@@ -1,6 +1,3 @@
-# Text-Summarizer
-DistilBART model fine-tuned on CNN/DailyMail dataset
-
 # 📝 AI Text Summarizer with DistilBART
 
 An interactive web application built with Gradio and Hugging Face Transformers that leverages a distilled sequence-to-sequence model to instantly generate abstractive summaries from long paragraphs or articles.
@@ -13,12 +10,3 @@ An interactive web application built with Gradio and Hugging Face Transformers t
 * **Hardware Adaptive:** Automatically detects and pairs with an **NVIDIA GPU (CUDA)** for fast inference processing, falling back safely to standard CPU if running in cloud spaces.
 * **Web User Interface:** A clean, easy-to-use textbox dashboard built entirely inside the browser using Gradio.
 
----
-
-## 📂 Project Structure
-```text
-text-summarization/
-├── .gitignore          # Blocks hidden temporary Python cache files
-├── README.md           # Documentation front page (This file)
-├── app.py              # Main application script with model & UI logic
-└── requirements.txt    # Required Python environments and dependencies
